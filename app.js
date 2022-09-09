@@ -9,10 +9,6 @@ const submitBtn =() => {
    const textValue = inputText.value;
    inputText.value = "";
   
-   if(inputText.value === ""){
-    alert("Please Input A Text")
-
-   }
 
 if(!todos){
     const todoList = [
